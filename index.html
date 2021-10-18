@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- main container starts here  -->
+    <div class="wrapper">
+        <div class="title-text">
+            <div class="title login">Login form</div>
+            <div class="title signup">Signup form</div>
+        </div>
+        
+        <div class="form-container">
+            <div class="slide-control">
+                <input type="radio" name="slider" id="login" checked>
+                <input type="radio" name="slider" id="signup">
+               <label for="login" class="slide login">Login</label>
+               <label for="signup" class="slide signup">Signup</label>
+               <div class="slide-tab"></div>
+            </div>
+            <!-- body section for login starts here  -->
+            <div class="form-inner">
+                <form action="#" class="login">
+                    <div class="field">
+                        <input type="text" placeholder="Email address" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="password" required>
+                    </div>
+                    <div class="pass-link"><a href="#">Forgot password?</a></div>
+                    <div class="field">
+                        <input type="submit" value="Login">
+                    </div>
+                    <div class="signup-link">Not a member? <a href="#">Signup now</a></div>
+                </form>
+            <!-- body section for login ends here  -->
+            <!-- body section for signup starts here  -->
+              
+                <form action="#" class="signup">
+                    <div class="field">
+                        <input type="text" placeholder="First Name" required>
+                    </div>
+                    <div class="field">
+                        <input type="text" placeholder="Last Name" required>
+                    </div>
+                    <div class="field">
+                        <input type="text" placeholder="Email address" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="password" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="confirm password" required>
+                    </div>
+                    <div class="field">
+                        <input type="submit" value="Signup">
+                    </div>
+                </form>
+            <!-- body section for signup ends here  -->
+
+            </div>
+        </div>
+    </div>
+            <!-- main container ends here  -->
+
+    <script src="main.js"></script>
+</body>
+</html>
